@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Popins" , sans-serif;
+    transition: all 0.4s ease-in-out;
+}
+html {
+    overflow-x: hidden;
+}
+html::-webkit-scrollbar{
+    display: none;
+}
+.container{
+    max-width:1440px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    padding: 0 5%;
+}
+.banner img{
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+    /* max-width: 1440px; */
+}
+h1 span{
+    color: rgb(251 146 60);
+}
+ a button{
+    background: rgb(251 146 60);;
+    
+}
+.icons .img1{
+    background-color:  rgb(255, 116, 2);
+}
+button:hover{
+    transform: scale(1.1);
+}
+.icons img:hover{
+    transform: scale(1.5);
+}
+.flex-grid img{
+    width: 90%;
+}
+.flex-grid {
+    text-align: center;
+}
+.orange{
+    background-color:  rgb(255, 116, 2);
+}
+.nav-mobile{
+     display: none;
+}
+nav .menu:hover .nav-mobile{
+    display: block;
+}
+nav .menu:hover {
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width:468px){
+    .nav-mobile ul li a{
+        font-size: 10px;
+    }
+}
+.flex-name , .flex-name .date , .flex-name .name{
+    font-size: 15px;
+}
+@media screen and (max-width:968px)
+{
+    .flex-name , .flex-name .date , .flex-name .name{
+        font-size: 10px;
+    }
+}
+nav ul li:hover a{
+    color: orange;
+    transform: scale(1.2);
+}
+.text .line{
+    width: 30px;
+    height: 1px;
+    background-color: orange;
+}
+.block-458{
+    border: 2px solid  orange ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 10px;
+}
+.block-scale:hover{
+    transform: scale(1.1);
+}
+footer {
+    padding: 6em 0;
+}
